@@ -7,22 +7,23 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-<div id="mySidenav" class="sidenav">
+    <span onclick="openNav()">☰ MENU</span>
+<div id="navbar" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">About</a>
     <a href="#">Services</a>
-    <a href="#">Clients</a>
+    <a href="#projects">Projects</a>
     <a href="#">Contact</a>
   </div>
   
   <!-- Use any element to open the sidenav -->
-  <span onclick="openNav()">MENU</span>
   
-  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page 
   <div id="main">
-    ...
+      
   </div>
-
+-->
 
 
 
@@ -43,18 +44,19 @@
 
 <div id="projects">
   
-    <a href="http://etvcamp.com/"><img id="project-tile" src="etvimg.jpg" alt=""/></a>
+    <a href="http://etvcamp.com/"><img class="project-tile" src="etvimg.jpg" alt=""/></a>
    
-    <a href="http://www.nyan.cat/"><img id="project-tile" src="cool.png" alt=""/></a>
+    <a href="https://github.com/losthermes/PortWeb" target="_blank"><img class="project-tile" id="profile-link" src="cool.png" alt=""/></a>
     
-    <a href="http://etmcamp.com/"><img id="project-tile" src="ETM.jpg" alt=""/></a>
+    <a href="http://etmcamp.com/"><img class="project-tile" src="ETM.jpg" alt=""/></a>
     
 
   
 </div>
 
 <div class="footer">
-  <p>This is the bottom of the page</p>
+  <p>This is the kitty</p>
+  <img id="profile-link" src="octocat.jpg"> </a>
 </div>
 
 
