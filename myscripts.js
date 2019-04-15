@@ -11,3 +11,10 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
     document.body.style.backgroundColor = "white";
   }
+
+  var app = new Vue({
+    el: '#app',
+    data:{
+      product: 'Socks'
+    }
+  })
